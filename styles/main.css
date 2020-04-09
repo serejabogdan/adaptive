@@ -1,0 +1,23 @@
+
+.section__row {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.section__item {
+    flex: 0 1 30%;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: lightgreen;
+}
+
+.section__item p {
+    text-align: justify;
+}
+
+.section__item img {
+    width: 100%;
+    background-color: green;
+}

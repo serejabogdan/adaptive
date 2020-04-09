@@ -1,0 +1,26 @@
+header .container { 
+    margin: 3px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo .img {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.menu__btn:not(:last-child) {
+    margin-right: 1em;
+}
+
+.menu__btn {
+    border: none;
+    cursor: pointer;
+    padding: 0 1em;
+    height: 50px;
+}
